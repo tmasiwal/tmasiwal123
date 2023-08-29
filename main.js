@@ -27,3 +27,15 @@ skillsLink.addEventListener('click', (event) => {
   });
 });
 
+
+// // GithubCalendar
+
+
+GitHubCalendar(".calendar", "tmasiwal");
+// or enable responsive functionality
+GitHubCalendar(".calendar", "tmasiwal", { responsive: true });
+// GitHubCalendar(".calendar", "tmasiwal", {
+//   proxy (username) {
+//     return fetch(`https://your-proxy.com/github?user=${username}`)
+//   }
+// }).then(r => r.text())
